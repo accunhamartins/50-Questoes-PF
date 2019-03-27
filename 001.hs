@@ -1,4 +1,3 @@
---1)
 myEnumFromTo :: Int -> Int -> [Int]
 myEnumFromTo  x y | x > y = []
                   | x == y = [x]
